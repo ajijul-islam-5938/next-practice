@@ -8,7 +8,7 @@ import Image from "next/image";
 //   return data.currentTime
 // }
 export default async function Home() {
-  const currentTime =await getTime()
+  // const currentTime =await getTime()
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
         Home Page
